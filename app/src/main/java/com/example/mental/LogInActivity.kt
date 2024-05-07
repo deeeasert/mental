@@ -35,9 +35,9 @@ class LogInActivity : AppCompatActivity() {
 
         //https://zrr.kr/Ty4G
 
-        signup.setOnClickListener {
-            signup()
-        }
+        //signup.setOnClickListener {
+        //    signup()
+        //}
 
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
@@ -50,8 +50,8 @@ class LogInActivity : AppCompatActivity() {
     }
 
     // 해결 못함
-    private fun signup() {
-        val intent = Intent(this, SignUpActivity::class.java)
-        ContextCompat.startActivity(intent)
-    }
+    //private fun signup() {
+    //    val intent = Intent(this, SignUpActivity::class.java)
+    //    ContextCompat.startActivity(intent)
+    //}
 }
