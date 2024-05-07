@@ -1,9 +1,13 @@
 package com.example.mental
 
+import android.content.Intent
 import android.database.sqlite.SQLiteDatabase
 import android.os.Bundle
+import android.widget.Button
+import android.widget.EditText
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.AppCompatButton
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.mental.databinding.ActivityMainBinding
@@ -24,6 +28,7 @@ class MainActivity : AppCompatActivity() {
 
         dbHelper = DBHelper(this, "mydb.db", null, 1)
         database = dbHelper.writableDatabase
+
 
         // https://doompa.tistory.com/279
         // var barChart: BarChart = findViewById(R.id.barChart)
