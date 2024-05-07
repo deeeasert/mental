@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">mental</string>
+    <string name="user">User</string>
 </resources>
