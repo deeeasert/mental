@@ -33,6 +33,12 @@ class LogInActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        signup.setOnClickListener {
+            val intent = Intent(this@LogInActivity,SignUpActivity::class.java)
+            startActivity(intent)
+        }
+
+
         //https://zrr.kr/Ty4G
 
         //signup.setOnClickListener {

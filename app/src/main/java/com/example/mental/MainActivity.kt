@@ -30,19 +30,51 @@ class MainActivity : AppCompatActivity() {
         database = dbHelper.writableDatabase
 
 
+        val ai : AppCompatButton = findViewById(R.id.ai)
+        val memo : AppCompatButton = findViewById(R.id.memo)
+        val cal : AppCompatButton = findViewById(R.id.cview)
+
+        ai.setOnClickListener {
+            val intent = Intent(this@MainActivity,AiActivity::class.java)
+            startActivity(intent)
+        }
+        memo.setOnClickListener {
+            val intent = Intent(this@MainActivity, AiActivity::class.java)
+            startActivity(intent)
+        }
+        cal.setOnClickListener {
+            val intent = Intent(this@MainActivity, calendar::class.java)
+            startActivity(intent)
+        }
+
+
+
+
+
+
+
+
+
+
+
         // https://doompa.tistory.com/279
         // var barChart: BarChart = findViewById(R.id.barChart)
 
 
 
 
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
+
 
 
     }
 }
+
+
+
+//        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+//            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+//            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+//            insets
+//        }
+
 

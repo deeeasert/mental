@@ -71,14 +71,15 @@
         android:layout_height="wrap_content"
         android:text="취소"/> -->
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="0dp"
-        android:layout_weight="3"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/gmarket_sans_ttf_medium"
-        android:text="회원가입"
-        android:textSize="20sp"
-        android:background="@drawable/btn_background_signup"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/join"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/btn_background_signup"
+            android:fontFamily="@font/gmarket_sans_ttf_medium"
+            android:text="회원가입"
+            android:textSize="20sp" />
     </LinearLayout>
 
         </LinearLayout>
