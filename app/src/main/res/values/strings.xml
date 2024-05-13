@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">mental</string>
     <string name="user">User</string>
+    <string name="addname"><u>이름</u></string>
 </resources>
