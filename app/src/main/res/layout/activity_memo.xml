@@ -7,4 +7,30 @@
     android:layout_height="match_parent"
     tools:context=".MemoActivity">
 
+    <TextView
+        android:layout_width="390dp"
+        android:layout_height="580dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/main_back"
+        android:fontFamily="@font/gmarket_sans_ttf_bold"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="120dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/plus_2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:background="@drawable/baseline_add_reaction_24"
+        android:scaleType="fitCenter"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="40dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,46 +7,41 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.AppCompatButton
+    <ImageButton
         android:id="@+id/appCompatButton11"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginTop="29dp"
         android:layout_marginBottom="33dp"
-        android:background="@drawable/icon"
-        android:fontFamily="@font/gmarket_sans_ttf_bold"
-        android:text="@string/user"
-        android:textSize="10sp"
+        android:background="@drawable/baseline_account_circle_24"
         app:layout_constraintBottom_toTopOf="@+id/login_btn"
-        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintHorizontal_bias="0.055"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.042"
-        tools:ignore="SmallSp" />
+        android:importantForAccessibility="no" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <ImageButton
         android:id="@+id/appCompatButton12"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:background="@drawable/icon"
-        android:fontFamily="@font/gmarket_sans_ttf_bold"
-        android:text="설정"
-        android:textSize="10sp"
+        android:background="@drawable/baseline_settings_24"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintHorizontal_bias="0.944"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.042" />
+        app:layout_constraintVertical_bias="0.042"
+        android:importantForAccessibility="no" />
 
     <TextView
         android:id="@+id/login_btn"
         android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="36dp"
-        android:layout_marginEnd="36dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         android:layout_marginBottom="21dp"
         android:background="@drawable/main_back"
         android:fontFamily="@font/gmarket_sans_ttf_bold"
@@ -66,7 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="22dp"
-        android:layout_marginEnd="36dp"
+        android:layout_marginEnd="20dp"
         android:layout_marginBottom="69dp"
         android:background="@drawable/main_back_2"
         android:fontFamily="@font/gmarket_sans_ttf_bold"
@@ -78,14 +73,15 @@
         app:layout_constraintBottom_toTopOf="@+id/log"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/ai"
-        app:layout_constraintTop_toBottomOf="@+id/login_btn" />
+        app:layout_constraintTop_toBottomOf="@+id/login_btn"
+        app:layout_constraintVertical_bias="0.0" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/ai"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="36dp"
+        android:layout_marginStart="20dp"
         android:layout_marginEnd="39dp"
         android:layout_marginBottom="70dp"
         android:background="@drawable/main_back_2"
@@ -109,7 +105,7 @@
         android:text=""
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -123,7 +119,7 @@
         android:text=""
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.902"
+        app:layout_constraintHorizontal_bias="0.946"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -137,7 +133,7 @@
         android:text=""
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintHorizontal_bias="0.353"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -151,7 +147,7 @@
         android:text=""
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintHorizontal_bias="0.053"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -165,7 +161,7 @@
         android:text=""
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintHorizontal_bias="0.654"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -176,8 +172,8 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="35dp"
-        android:layout_marginEnd="35dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         android:layout_marginBottom="84dp"
         android:background="@drawable/main_back"
         android:fontFamily="@font/gmarket_sans_ttf_bold"
@@ -199,7 +195,7 @@
         android:text=""
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.768"
+        app:layout_constraintHorizontal_bias="0.803"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -213,15 +209,23 @@
         android:text=""
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintHorizontal_bias="0.204"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.425" />
 
-
-
-
+    <ImageButton
+        android:id="@+id/plus"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:background="@drawable/baseline_add_reaction_24"
+        android:scaleType="fitCenter"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="341dp"
+        tools:layout_editor_absoluteY="359dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
