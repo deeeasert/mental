@@ -7,4 +7,18 @@
     android:layout_height="match_parent"
     tools:context=".AiActivity">
 
+    <TextView
+        android:layout_width="390dp"
+        android:layout_height="450dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/main_back"
+        android:fontFamily="@font/gmarket_sans_ttf_bold"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="120dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
