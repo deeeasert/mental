@@ -1,6 +1,7 @@
 package com.example.mental
 
 import android.os.Bundle
+import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -19,4 +20,6 @@ class AiActivity : AppCompatActivity() {
 //            insets
 //        }
     }
+
+    fun btn_Click(view: View) {}
 }
