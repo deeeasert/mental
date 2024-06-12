@@ -20,6 +20,7 @@ class AiActivity : AppCompatActivity() {
 //            insets
 //        }
     }
-
-    fun btn_Click(view: View) {}
 }
+/*
+    fun btn_Click(view: View) {}
+}*/
